@@ -1,13 +1,10 @@
 package com.leo.springboot2book.controller;
 
-import com.leo.springboot2book.entity.User;
 import com.leo.springboot2book.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class BeetlController {
